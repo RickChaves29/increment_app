@@ -8,13 +8,13 @@ void main() {
       int result = counterEntity.count;
       expect(result, 0);
     });
-    test('se o metodo increment está adicionando mais 1 a variavel count', () {
+    test('se o metodo increment está adicionando mais 1 da variavel count', () {
       CounterEntity counterEntity = CounterEntity();
       counterEntity.increment();
       int result = counterEntity.count;
       expect(result, 1);
     });
-    test('se o metodo increment está adicionando mais 1 a variavel count', () {
+    test('se o metodo decrement está retirando mais 1 da variavel count', () {
       CounterEntity counterEntity = CounterEntity();
       counterEntity.decrement();
       int result = counterEntity.count;
